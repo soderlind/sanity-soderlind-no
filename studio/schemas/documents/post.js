@@ -65,8 +65,12 @@ export default {
     {
       name: 'body',
       type: 'bodyPortableText',
-      title: 'Body'
-    }
+		title: 'Body',
+		options: {
+			minRows: 20
+
+	  }
+	}
   ],
   orderings: [
     {
